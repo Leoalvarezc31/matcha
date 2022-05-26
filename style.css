@@ -21,3 +21,19 @@ button {
     background-color: #025157;
 }
 
+.logo-matcha{
+    width: 50px;
+}
+
+
+.first-image {
+    width: 10%;
+}
+
+.second-image{
+    width: 100%;
+}
+
+.main{
+    text-align: center;
+}
