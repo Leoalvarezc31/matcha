@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;900&display=swap" rel="stylesheet">   
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;900&family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
+        
         <title> matcha </title>
     </head>
       <body>
@@ -49,18 +50,15 @@
                  </button>
              </form>   
     
-            <p> 
-                start publishing today with a <strong>free 7-day trial</strong> 
-            </p>
-            <p> 
-                    <strong> No credit required </strong> 
-            </p> 
+            <p class="color-gris-seccion-inicial"> 
+                start publishing today with a <strong>free 7-day trial</strong></p>
+            <p class="color-gris-seccion-inicial"><strong> No credit required </strong></p> 
                 
-            <figure class="first-image">
-                <Img src="./Imagenes/capterra-inc-vector-logo.png" alt="capterra\">
+            <figure>
+                <Img class="first-image" src="./Imagenes/capterra-inc-vector-logo.png" alt="capterra\">
             </figure>
-            <figure class="second-image">
-                <Img src="./Imagenes/intro_group_image.png" alt="intro to matcha\"> 
+            <figure>
+                <Img class="second-image" src="./Imagenes/intro_group_image.png" alt="intro to matcha\"> 
             </figure>       
              
         </section>
@@ -68,20 +66,28 @@
 
         <secton class="publish">
             <article class="video">
-                    <video poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg" 
-                    controls>
-                        <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-                        />
-                        <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-                        />
-                    </video>
-            </article>
+                <div class="video-contenedor">
+                    <video 
+                    class="cuadro-video"
+                    poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg" 
+                controls>
+                    <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                    />
+                    <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                    />
+                </video>
+                <figure class="see-how-it-works">
+                    <img class="green-arrow" src="https://i.pinimg.com/474x/b0/61/de/b061de337ba79e850b40f7af96addc5a.jpg" alt="">
+                <p>See how it works!</p>
+                </div>
+                </figure>
+                    
+                </article>
         <!--esta es la seccion publicidad-->
 
-            <article class="Publicidad">
-                <h3 class="titulo-publish">Publish to your blog in 
-                        minutes, not hours.
-                    </h3>
+            <article class="publicidad">
+                <h2 class="titulo-publish">Publish to your blog in 
+                        minutes, not hours.</h2>
                     <p> 
                         Your blog is your most powerful asset to build,
                          engage, and retain a loyal audience. But you don’t 
@@ -90,7 +96,7 @@
                          of 10,000+ professionally written articles and build
                          your email list faster with our powerful conversion tool.
                     </p>
-                    <p class="letras gris">Start publish today</p> 
+                    <p class="letras-gris">Start publish today</p> 
                     <form>
                         <input type="email" />
                         <button type="submit"> 
@@ -101,9 +107,7 @@
                 </article>
    
 
-
-            
-
+                    
         </secton>
     </body>
 </html>
